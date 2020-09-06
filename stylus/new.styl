@@ -12,11 +12,35 @@ body{
         width: 100%;
 
         .head{
-            height: 50px
+            position: absolute;
+            height: 50px;
+            width: 100%;
+            top: 0
+            left: 0
+            background: blue
+            z-index: 10
+
+            .editor{
+                width: 30%;   
+                height: 50px; 
+            }
+            .name{
+                width: 40%; 
+                height: 50px;
+            }
+            .currentTime{
+                width: 30%; 
+                height: 50px;
+            }
         }
             
         .main{
-            height: (100%) - 50;     
+            height: 100%;
+            width: 100%;
+            position absolute;  
+            top: 0
+            left: 0
+            background: red   
         }
     }   
 }

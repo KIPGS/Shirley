@@ -11,8 +11,31 @@ body #box {
   width: 100%;
 }
 body #box .head {
+  position: absolute;
+  height: 50px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #00f;
+  z-index: 10;
+}
+body #box .head .editor {
+  width: 30%;
+  height: 50px;
+}
+body #box .head .name {
+  width: 40%;
+  height: 50px;
+}
+body #box .head .currentTime {
+  width: 30%;
   height: 50px;
 }
 body #box .main {
-  height: 50%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #f00;
 }
